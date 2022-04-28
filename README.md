@@ -1,4 +1,4 @@
-create an .env file in the root of this project and insert the following 
+1. Create an .env file in the root of this project and insert the following 
 variables:
 
 * #MongoDB
@@ -14,5 +14,12 @@ variables:
 * SPRING_MAIL_PASSWORD=qWERTY2017!
 * SPRING_MAIL_USERNAME=shakhno2022@gmail.com
 
-To up the application in a docker container, you need to run the command
+2. To up the application in a docker container, you need to run the command
 docker-compose up --build from the project root
+3. URL for swagger -http://localhost:8081/swagger-ui.html#/ 
+4. For ADMIN role log to - 
+      login: Admin 
+      password: xsw2@WSX 
+5. For USER role log to -
+      login: edgetester 
+      password: xsw2@WSX
