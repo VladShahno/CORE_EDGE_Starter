@@ -13,6 +13,10 @@ variables:
 * #SpringMail
 * SPRING_MAIL_PASSWORD=qWERTY2017!
 * SPRING_MAIL_USERNAME=shakhno2022@gmail.com
+* 
+* #Minio
+*  MINIO_ROOT_USER=AKIAIOSFODNN7EXAMPLE
+* MINIO_ROOT_PASSWORD=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
 2. To up the application in a docker container, you need to run the command
 docker-compose up --build from the project root
